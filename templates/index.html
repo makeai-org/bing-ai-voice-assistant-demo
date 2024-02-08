@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Talk to Bing</title>
+   
+   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+<body>
+   <center>
+      <div class="name">Speak To Bing</div>
+   </center>
+
+   <div class="talky">
+     <div class="talk-box">Press Space or Tap and Say Something!</div>
+   </div>
+   <div class="readout"></div>
+
+   <script src="{{ url_for('static', filename='init.js') }}"></script>
+   <script src="{{ url_for('static', filename='run.js') }}"></script>
+</body>
+</html>

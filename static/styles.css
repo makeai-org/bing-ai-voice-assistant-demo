@@ -1,0 +1,36 @@
+body {
+    background-color: #150d60;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.talky {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: 200%;
+    box-shadow: inset 0 0 12px 12px white, inset 0 0 3px 2px white;
+  background: radial-gradient(#000000,rgb(17, 43, 111));
+}
+
+.talk-box {
+    text-align: center;
+    color:purple;
+}
+
+.readout {
+    text-align: center;
+    color:white;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    font-weight: bold;
+    background-color: purple;
+}
+
+.name {
+    text-align: center;
+    position: absolute;
+    color: white;
+}
